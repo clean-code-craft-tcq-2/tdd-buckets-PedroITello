@@ -9,7 +9,7 @@ class TypewiseTest(unittest.TestCase):
   def test_check_and_alert(self):
     self.assertEqual(
       tddb.check_ranges_on_array(
-        [4,5]
+        tddbc.TEST_ARRAY_THREE
       ), [["4-5", 2]]
     )
 
